@@ -1,0 +1,10 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: toolbox-homepage:latest
+    container_name: toolbox-homepage
+    restart: unless-stopped
+    ports:
+      - "10484:80"
