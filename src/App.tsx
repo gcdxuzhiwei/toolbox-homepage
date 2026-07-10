@@ -127,6 +127,35 @@ function ToolIcon({ icon }: { icon: string }) {
         <polyline points="12 6 12 12 16 14" />
       </svg>
     ),
+    search: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <circle cx="11" cy="11" r="7" />
+        <line x1="16.5" y1="16.5" x2="21" y2="21" />
+        <path d="M8 11h6" />
+        <path d="M11 8v6" />
+      </svg>
+    ),
+    tv: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <rect x="2" y="5" width="20" height="13" rx="2" />
+        <polyline points="8 21 12 18 16 21" />
+        <path d="M7 10l3 2-3 2" />
+      </svg>
+    ),
   };
   return icons[icon] || icons.code;
 }

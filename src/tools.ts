@@ -18,4 +18,21 @@ export const tools: ToolItem[] = [
     color: "#f59e0b",
     tag: "热门",
   },
+  {
+    id: "pansou",
+    title: "PanSou 网盘搜索",
+    description:
+      "高性能网盘资源搜索API服务，支持TG频道和插件搜索，多频道多插件并发搜索、结果智能排序和网盘类型分类，Docker集成前后端一键启动",
+    url: "http://101.43.99.248:10486",
+    icon: "search",
+    color: "#3b82f6",
+  },
+  {
+    id: "libre-tv",
+    title: "LibreTV",
+    description: "一分钟搭建影视站，支持Vercel/Docker等部署方式",
+    url: "http://101.43.99.248:10485",
+    icon: "tv",
+    color: "#8b5cf6",
+  },
 ];
