@@ -23,7 +23,7 @@ export const tools: ToolItem[] = [
     title: "PanSou 网盘搜索",
     description:
       "高性能网盘资源搜索API服务，支持TG频道和插件搜索，多频道多插件并发搜索、结果智能排序和网盘类型分类，Docker集成前后端一键启动",
-    url: "http://101.43.99.248:10486",
+    url: "/ps",
     icon: "search",
     color: "#3b82f6",
   },
