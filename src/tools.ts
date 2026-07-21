@@ -27,12 +27,4 @@ export const tools: ToolItem[] = [
     icon: "search",
     color: "#3b82f6",
   },
-  {
-    id: "libre-tv",
-    title: "LibreTV",
-    description: "一分钟搭建影视站，支持Vercel/Docker等部署方式",
-    url: "http://101.43.99.248:10485",
-    icon: "tv",
-    color: "#8b5cf6",
-  },
 ];
